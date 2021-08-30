@@ -4,7 +4,7 @@ def arearec (b, p):
     return area
 def volumen (a, h):
     
-    vol=round( (a)*(h),1)
+    vol=(a)*(h)
     return vol
 def main():
     b=float(input('Dame la base: '))
