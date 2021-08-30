@@ -12,5 +12,4 @@ def main():
     p=float(input('Dame la profundidad: '))
     a=arearec(b,p)
     print( 'El volumen del prisma es: '+str(volumen(a,h))
-if __name__ == '__main__':
-    main()
+main()
