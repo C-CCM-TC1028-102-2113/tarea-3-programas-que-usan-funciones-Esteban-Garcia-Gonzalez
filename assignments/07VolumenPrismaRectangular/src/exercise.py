@@ -1,6 +1,6 @@
 
-def arearec(b, h):
-    area=b*h
+def arearec(b, p):
+    area=b*p
     return area
 
 def volumen(a, h):
@@ -12,7 +12,7 @@ def main():
   b=float(input('Dame la base: '))
   h=float(input('Dame la altura: '))
   p=float(input('Dame la profundidad: '))
-  a=arearec(b,h)
+  a=arearec(b,p)
   print('El volumen del prisma es: '+ str(volumen(a, h)))
 
 if __name__ == '__main__':
